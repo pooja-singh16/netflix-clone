@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Netflix Clone</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-black text-white font-sans">
+
+<!-- Navbar -->
+<nav class="flex justify-between items-center px-10 py-4 absolute w-full z-10">
+  <h1 class="text-red-600 text-3xl font-bold">NETFLIX</h1>
+  <button class="bg-red-600 px-4 py-2 rounded">Sign In</button>
+</nav>
+
+<!-- Hero Section -->
+<header class="h-screen bg-cover bg-center flex items-center"
+style="background-image:url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4');">
+
+<div class="bg-black/60 w-full h-full flex items-center">
+  <div class="px-10 max-w-xl">
+    <h2 class="text-5xl font-bold mb-4">Unlimited Movies, TV Shows & More</h2>
+    <p class="mb-6 text-lg">Watch anywhere. Cancel anytime.</p>
+
+    <button class="bg-red-600 px-6 py-3 rounded mr-3 hover:bg-red-700">
+      ▶ Play
+    </button>
+
+    <button class="bg-gray-700 px-6 py-3 rounded hover:bg-gray-600">
+      More Info
+    </button>
+  </div>
+</div>
+
+</header>
+
+<!-- Movie Row -->
+<section class="px-10 mt-8">
+  <h3 class="text-2xl mb-4">Popular on Netflix</h3>
+
+  <div class="flex gap-4 overflow-x-auto">
+
+    <img class="w-64 rounded hover:scale-110 transition"
+    src="https://picsum.photos/300/400?1">
+
+    <img class="w-64 rounded hover:scale-110 transition"
+    src="https://picsum.photos/300/400?2">
+
+    <img class="w-64 rounded hover:scale-110 transition"
+    src="https://picsum.photos/300/400?3">
+
+    <img class="w-64 rounded hover:scale-110 transition"
+    src="https://picsum.photos/300/400?4">
+
+    <img class="w-64 rounded hover:scale-110 transition"
+    src="https://picsum.photos/300/400?5">
+
+  </div>
+</section>
+
+<!-- Second Row -->
+<section class="px-10 mt-10">
+  <h3 class="text-2xl mb-4">Trending Now</h3>
+
+  <div class="flex gap-4 overflow-x-auto">
+
+    <img class="w-64 rounded hover:scale-110 transition"
+    src="https://picsum.photos/300/400?6">
+
+    <img class="w-64 rounded hover:scale-110 transition"
+    src="https://picsum.photos/300/400?7">
+
+    <img class="w-64 rounded hover:scale-110 transition"
+    src="https://picsum.photos/300/400?8">
+
+    <img class="w-64 rounded hover:scale-110 transition"
+    src="https://picsum.photos/300/400?9">
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center text-gray-400 py-10 mt-10">
+  Netflix UI Clone • Tailwind CSS Project 🚀
+</footer>
+
+</body>
+</html>
